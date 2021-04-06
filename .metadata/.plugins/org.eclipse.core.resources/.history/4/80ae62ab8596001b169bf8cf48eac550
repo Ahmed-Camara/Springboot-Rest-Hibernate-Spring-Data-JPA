@@ -11,9 +11,7 @@ import org.springframework.stereotype.Repository;
 
 
 import com.springboot.rest.crudApp.entity.Employee;
-/**
- * NATIVE HIBERNATE METHODS
- * **/
+
 @Repository
 public class EmployeeDAOImpl implements EmployeeDAO {
 
@@ -22,7 +20,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	@Autowired
 	public EmployeeDAOImpl(EntityManager theEntityManager) {
 		
-		entityManager = theEntityManager;
+		entityManager = theEntityManager;d
 	}
 	@Override
 	public List<Employee> findAll() {
