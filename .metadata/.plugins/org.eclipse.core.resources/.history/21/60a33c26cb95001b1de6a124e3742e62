@@ -1,0 +1,8 @@
+package com.springboot.rest.crudApp.restController;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EmployeeRestController {
+
+}

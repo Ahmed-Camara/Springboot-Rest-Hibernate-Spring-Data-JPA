@@ -1,0 +1,5 @@
+import com.springboot.rest.crudApp.service.EmployeeService;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+}

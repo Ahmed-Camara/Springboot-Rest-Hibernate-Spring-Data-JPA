@@ -1,0 +1,32 @@
+package com.springboot.rest.crudApp.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.springboot.rest.crudApp.entity.Employee;
+
+@Repository
+public class EmployeeDAOImpl implements EmployeeDAO {
+
+	private EntityManager entityManager;
+	
+	@Autowired
+	public EmployeeDAOImpl(EntityManager theEntityManager) {
+		
+		this.entityManager = theEntityManager;
+	}
+	@Override
+	public List<Employee> findAll() {
+		return null;
+	}
+
+	@Override
+	public Employee findById(int id) {
+		return null;
+	}
+
+}

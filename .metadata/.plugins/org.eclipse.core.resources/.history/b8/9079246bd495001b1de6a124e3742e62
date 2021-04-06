@@ -1,0 +1,5 @@
+package com.springboot.rest.crudApp.service;
+
+public interface EmployeeServiceImpl extends EmployeeService {
+
+}

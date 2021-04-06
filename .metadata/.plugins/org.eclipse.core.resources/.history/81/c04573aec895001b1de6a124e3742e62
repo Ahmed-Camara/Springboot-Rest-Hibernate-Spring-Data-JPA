@@ -1,0 +1,5 @@
+package com.springboot.rest.crudApp.entity;
+
+public class Employee {
+
+}

@@ -1,0 +1,6 @@
+package com.springboot.rest.crudApp.dao;
+
+public interface EmployeeDAO {
+	
+	
+}

@@ -1,0 +1,5 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/crud_operation
+spring.datasource.username=camara
+spring.datasource.password=ahmed
+
+

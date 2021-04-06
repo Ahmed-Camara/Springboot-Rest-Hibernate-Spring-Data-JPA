@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;crudApp&apos; to &apos;Hibernate-REST-API&apos;" description="Rename resource &apos;crudApp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/crudApp" name="Hibernate-REST-API" stamp="1617678064544" updateReferences="true"/>
+</session>
